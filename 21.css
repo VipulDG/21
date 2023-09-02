@@ -1,0 +1,63 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(red,yellow);
+    height: 100vh;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 30%;
+    margin: auto;
+}
+header{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+header h1{
+    color: red;
+    font-size: 10rem;
+    margin: 0px;
+}
+
+header h1 span{
+    color: white;
+}
+
+main h2{
+    text-align: center;
+}
+
+main h4{
+    text-align: center;
+}
+
+main #but{
+    text-align: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+
+main #but button{
+    width: 20%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: black;
+}
+ #but #new{
+    background-color: yellow;
+    columns: yellow;
+}
+
+main p{
+    text-align: center;
+    font-size: 1.5rem;
+}
